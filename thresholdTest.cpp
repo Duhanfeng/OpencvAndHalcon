@@ -133,7 +133,7 @@ void threshold2(cv::InputArray src, cv::OutputArray dst, double threshold1, doub
 
 void thresholdTest()
 {
-    std::string file = "E:/临时文件/匹配/1.1.bmp";
+    std::string file = "E:/临时文件/匹配/Pic_2021_07_27_103526_1.bmp";
 
     //读取opencv图像
     cv::Mat cImage = imread(file, IMREAD_GRAYSCALE);
@@ -151,7 +151,7 @@ void thresholdTest()
     //延时让系统稳定(刚进入debug模式下,VS需要加载各种窗口及资源,此时无法跑满系统性能)
     _sleep(1000);
 
-    int circleTime = 100;
+    int circleTime = 500;
 
     Timer timer1;
     for (size_t i = 0; i < circleTime; i++)

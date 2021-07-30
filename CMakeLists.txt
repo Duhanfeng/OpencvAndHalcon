@@ -42,7 +42,7 @@ include_directories("$ENV{HALCONROOT}/include"
 link_directories("$ENV{HALCONROOT}/lib/$ENV{HALCONARCH}")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (${PROJECT_NAME}   "OpencvAndHalcon.cpp"  "OpencvAndHalcon.h"  "timer.h" "thresholdTest.cpp" "thresholdTest.h" "hsvTest.cpp" "hsvTest.h")
+add_executable (${PROJECT_NAME}   "OpencvAndHalcon.cpp"  "OpencvAndHalcon.h"  "timer.h" "thresholdTest.cpp" "thresholdTest.h" "hsvTest.cpp" "hsvTest.h" "halconConverter.h")
 
 # TODO: 如有需要，请添加测试并安装目标。
 
